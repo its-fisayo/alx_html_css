@@ -18,3 +18,21 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+th {
+    font-weight: bold;
+}
+
+#tweets-link {
+    text-decoration: none;
+}
+
+#tweets-link:hover {
+    color: orangered;
+}
