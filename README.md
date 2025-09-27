@@ -17,7 +17,7 @@ This project is designed to help me learn and practice CSS. It includes various 
 * Projects to apply CSS knowledge
 
 ## Getting Started
-1. Clone the repository: git clone [https://github.com/your-username/css-learning-project.git](https://github.com/its-fisayo/alx_html_css.git)
+1. Clone the repository: git clone https://github.com/its-fisayo/alx_html_css.git
 2. Open the project in your favorite code editor.
 3. Start exploring the examples, exercises, and projects.
 
