@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'Custom Fonts';
+    src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Custom Fonts';
+    src: url(fonts/SourceSansPro-Light.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Custom Fonts';
+    src: url(fonts/SourceSansPro-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Custom Fonts';
+    src: url(fonts/SourceSansPro-Semibold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Custom Fonts';
+    src: url(fonts/SourceSansPro-Black.otf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Custom Fonts';
+    src: url(fonts/SourceSansPro-It.otf);
+    font-style: italic;
+}
+
+* {
+    color: white;
+    font-family: 'Custom Fonts', sans-serif;
+}
+
+body {
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1093px;
+}
+
+div {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-nav {
+    display: flex;
+    justify-content:space-between;
+    width: 1100px;
+}
+
+#header-nav img {
+    width: 168px;
+    height: 30px;
+}
+
+#first-nav {
+    width: 234px;
+}
+
+#first-nav li {
+    font-size: 12px;
+}
+
+#first-section {
+    padding: 50px 0 0;
+    text-align: center;
+}
+
+#get-schooled {
+    font-weight: bold;
+    font-size: 120px;
+    padding: 0;
+    margin: 0;
+}
+
+#second-nav {
+    width: 253px;
+    margin: auto;
+}
+
+#second-nav li {
+    font-size: 16px;
+}
+
+button {
+    font-weight: 600;
+    background-color: #c271ff;
+    border: 0;
+    width: 162px;
+    height: 44px;
+    margin: 45px;
+    border-radius: 22px;
+}
+
+.first-section-divs {
+    padding: 120px 0 0;
+}
+
+#second-div h2 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.special-word {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+#speakers-div {
+    display: flex;
+    justify-content: space-between;
+    width: 1009px;
+    height: 237px;
+    margin: 50px auto;
+}
+
+#speakers-div div img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#speakers-div div {
+    width: 150px;
+    height: 237px;
+}
+
+#speakers-div div h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#speakers-div div p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+#quote-section {
+    background-color: #c271ff;
+    width: 100%;
+    height: 392px;
+    margin-top: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-section img {
+    width: 160px;
+    height: 160px;
+}
+#quote-div {
+    width: 730px;
+    height: 180px;
+    text-align: left;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+#videos-section {
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+#videos-section h2 {
+    color: #071629;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+#videos-div {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.play-img {
+    width: 64px;
+    height: 64px;
+}
+
+#video-img-1 {
+    width: 255px;
+    height: 154px;
+    background-image: url(images/9.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video-img-2 {
+    width: 255px;
+    height: 154px;
+    background-image: url(images/7.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video-img-3 {
+    width: 255px;
+    height: 154px;
+    background-image: url(images/8.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video-img-4 {
+    width: 255px;
+    height: 154px;
+    background-image: url(images/6.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vid-div {
+    width: 255px;
+    height: 335px;
+    margin: 15px;
+}
+
+.vid-div h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #071629;
+    text-align: left;
+}
+
+.vid-div p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #071629;
+    text-align: left;
+    font-weight: 300;
+}
+
+.below-vid {
+    padding: 13px;
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+}
+
+.author-and-name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.author-and-name h4 {
+    color: #c271ff;
+    margin: 0 15px;
+}
+
+.below-vid div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.rating-img {
+    width: 107px;
+    height: 15px;
+}
+
+.below-vid div p {
+    color:#c271ff
+}
+
+#membership {
+    background-color: #071629;
+    text-align: center;
+    padding: 30px;
+}
+
+#membership h2 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+#membership-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smiley-div {
+    width: 257px;
+    height: 153px;
+    margin: 13px;
+}
+
+.smiley-div p {
+    font-size: 12;
+    font-weight: 300;
+}
+
+#faq {
+    text-align: center;
+}
+
+#faq h2{
+    font-size: 60px;
+    color: #071629;
+    font-weight: 300;
+}
+
+#faq h3, #faq p{
+    color: #071629;
+}
+
+#faq-overall-div {
+    display: flex;
+    align-items: center;
+}
+
+.faq-outer-divs {
+    width: 920px;
+}
+
+.faq-inner-divs {
+    width: 350px;
+    height: 242px;
+    margin: auto;
+}
+
+.faq-inner-divs h3 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.faq-inner-divs p {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer {
+    background-color: #071629;
+    padding: 30px 0;
+}
+
+#footer-logo-div {
+    width: 1110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-logo-div img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
+#footer-logo-div #smiley-logo {
+    width: 169px;
+    height: 30px;
+}
+
+#footer-logo-div a {
+    margin: 5px;
+}
+
+footer section p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 10;
+    opacity: 35.17%;
+}
