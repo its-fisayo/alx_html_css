@@ -355,7 +355,7 @@ footer p {
         display: block;
     }
 
-    #menu-toggle:checked + .menu-icon  ~ .menu {
+   /* #menu-toggle:checked + .menu-icon  ~ .menu {
         display: block;
     }
 
@@ -365,7 +365,7 @@ footer p {
 
     #menu-toggle:checked ~ #close-menu {
         display: flex;
-    }
+    }*/
 
     #first-section {
         width: 357px;
@@ -454,5 +454,33 @@ footer p {
 
     footer p {
         margin-top:30px;
+    }
+}
+
+@media (max-width: 1100px) {
+    nav {
+        width: 633px;
+    }
+
+    #image-div {
+        width: 480px;
+        height: 480px;
+        flex-wrap: wrap;
+    }
+
+    #third-section {
+        background-size: 180%;
+        background-position: 60%;
+        height: 930px;
+    }
+
+    #third-section-image-div {
+        height: 480px;
+        width: 480px;
+        flex-wrap: wrap;
+    }
+
+    #footer-socials-logo-div {
+        width: 633px;
     }
 }

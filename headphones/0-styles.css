@@ -72,6 +72,11 @@
     font-style: oblique;
 }
 
+@font-face {
+    font-family: 'Custom Fonts 3';
+    src: url(fonts/holberton_school-icon.woff);
+}
+
 * {
     font-family: 'Custom Fonts', sans-serif;
     color: white;
@@ -106,6 +111,10 @@ nav {
 
 nav img {
     width: 161px;
+}
+
+.image-divs h2 {
+    font-family: 'Custom Fonts 3';
 }
 
 nav ul {
@@ -190,19 +199,25 @@ button:hover, button:active {
 
 #image-div {
     width: 1000px;
-    height: 193px;
+    height: 250px;
     color: black;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .image-divs {
     width: 207px;
     height: 180px;
+    box-sizing: border-box;
 }
 
+.image-divs h2 {
+    color: #FF6565;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
 .image-divs p {
     width: 207px;
 }
@@ -382,6 +397,7 @@ footer p {
         width: 207px;
         height: 1020px;
         flex-direction: column;
+        padding-bottom: 50px;
     }
 
     #third-section {
@@ -394,9 +410,9 @@ footer p {
     #third-sect-p-div {
         background-image: url(images/headphones_hero_2.jpg);
         background-size: 330%;
-        background-position: 50%;
+        background-position: 50% 30%;
         background-repeat: no-repeat;
-        height: 700px;
+        height: 550px;
         box-sizing: border-box;
         padding-top: 100px;
     }
@@ -438,5 +454,33 @@ footer p {
 
     footer p {
         margin-top:30px;
+    }
+}
+
+@media (max-width: 1100px) {
+    nav {
+        width: 633px;
+    }
+
+    #image-div {
+        width: 480px;
+        height: 480px;
+        flex-wrap: wrap;
+    }
+
+    #third-section {
+        background-size: 180%;
+        background-position: 60%;
+        height: 930px;
+    }
+
+    #third-section-image-div {
+        height: 480px;
+        width: 480px;
+        flex-wrap: wrap;
+    }
+
+    #footer-socials-logo-div {
+        width: 633px;
     }
 }
